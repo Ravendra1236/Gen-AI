@@ -34,6 +34,7 @@ scores = cosine_similarity([embedding_query] , embedding_docs)[0]
 # Asc Order sorted and max value will got at last so we will access from there.
 index , score = sorted(list(enumerate(scores)), key=lambda x : x[1])[-1]
 
+# print(index) 
 print(query)
 print(documents[index])
 print("Similarity Score: " , score)
