@@ -139,4 +139,3 @@ print(result)
 
 # …it cannot use TypedDict because it doesn't exist at runtime as a schema object. It's just metadata for editors and linters (e.g., for mypy, Pyright).
 
- 

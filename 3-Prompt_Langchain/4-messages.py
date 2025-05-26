@@ -8,8 +8,6 @@ llm = HuggingFaceEndpoint(model="mistralai/Mistral-7B-Instruct-v0.3" , max_new_t
 
 model = ChatHuggingFace(llm=llm)
 
-
-
 messages = [
     SystemMessage(content="You are a helpful assistant."),
     HumanMessage(content="Tell me about langchain")
