@@ -19,7 +19,9 @@ loader = TextLoader("cricket.txt", encoding="utf-8")
 
 docs = loader.load()
 
-# print(docs)
+# Consists of list in which 0th documents is ours which contains page_content and metadata
+
+print(docs)
 # print(type(docs))
 # print(len(docs)
 # print(docs[0].page_content)
@@ -28,5 +30,5 @@ docs = loader.load()
 chain = prompt | model | parser 
 
 result = chain.invoke({'poem' : docs[0].page_content})
-print(result)
+# print(result)
 

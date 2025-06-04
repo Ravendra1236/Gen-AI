@@ -23,6 +23,7 @@ docs = loader.lazy_load()
 # Problem:
 # Loading time is very much 
 # If there were 100 pdf to put on memory then also it was difficult 
+# That is why we use lazy_loading
 
 for doc in docs:
     print(doc.metadata)

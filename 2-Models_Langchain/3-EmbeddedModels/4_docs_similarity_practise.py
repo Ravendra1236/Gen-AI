@@ -22,7 +22,7 @@ embedding_docs = embedding.embed_documents(documents)
 embedding_query = embedding.embed_query(query) 
 
 # cosine_similarity : Both values must be 2D list
-# print(cosine_similarity([embedding_query] , embedding_docs))
+print(cosine_similarity([embedding_query] , embedding_docs))
 
 # 2D to 1D list
 scores = cosine_similarity([embedding_query] , embedding_docs)[0]

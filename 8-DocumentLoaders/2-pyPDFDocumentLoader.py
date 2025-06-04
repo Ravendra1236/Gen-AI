@@ -1,8 +1,9 @@
 from langchain_community.document_loaders import PyPDFLoader
 
-
+# Loader object:
 loader = PyPDFLoader('cpp_quesBank.pdf' )
 
+# Loading that document:
 docs = loader.load()
 
 print(docs)
