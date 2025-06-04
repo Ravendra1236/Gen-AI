@@ -19,7 +19,7 @@
 
 # # print(llm_with_tool)
 
-# # Tool Calling: Dont execute , it just advice tool with paramters and which tool to call
+# # Tool Calling: Dont execute , it just advice tool with parameters and which tool to call
 # result = llm_with_tool.invoke("Can you multiply 2 and 5")
 # # print(result) # Will call tool
 # # print(result.tool_calls)
@@ -75,3 +75,5 @@ print(finalResult.content)
 # Assistant: "Got it. Now, what next?"
 
 # Without the "history," the assistant would forget what was said or done before.
+
+
